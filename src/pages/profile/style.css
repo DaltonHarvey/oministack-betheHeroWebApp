@@ -1,0 +1,112 @@
+.profile-container {
+  width: 100%;
+  max-width: 1180px;
+  padding: 0 30px;
+  margin: 32px auto;
+}
+
+.profile-container header {
+  display: flex;
+  align-items: center;
+}
+
+.profile-container header img {
+  height: 64px;
+}
+
+.profile-container header .header-right {
+  float: right;
+  line-height: 3;
+  display: flex;
+  margin-left: auto;
+  margin-top: 0;
+}
+
+.profile-container header .header-right .add-button {
+  background: #d0d0d0;
+  margin-right: 10px;
+  width: 37px;
+  text-align: center;
+  padding-top: 3px;
+  height: 37px;
+  border-radius: 50px;
+}
+
+.profile-container header .header-right .add-button a {
+  color: black;
+}
+
+.profile-container header span{
+  background: #d0d0d0;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+
+.profile-container h1 {
+  font-family: 'Abril Fatface', cursive;
+    font-size: 2rem;
+    color: #656565;
+    margin-top: 80px;
+    margin-bottom: 24px;
+    font-weight: 100;
+}
+
+.profile-container ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 24px;
+  list-style: none;
+}
+
+.profile-container ul li {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 6px;
+  position: relative;
+  box-shadow: 1px 0px 20px 0px rgba(1, 1, 1, 0.05);
+}
+
+.profile-container ul li button {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  border: 0;
+  color: #808080e8;
+  background: #e6e6e6;
+  justify-content: center;
+  padding-top: 2.2px;
+  margin: 0 auto;
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+}
+
+.profile-container ul li button:hover {
+  opacity: 0.8;
+}
+
+.profile-container ul li strong {
+  line-height: 20px;
+  color: #41414d;
+}
+
+.profile-container ul li p {
+  padding-bottom: 9px;
+}
+.profile-container ul li div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  bottom: 10px;
+  grid-gap: 51px;;
+}
+
+.profile-container ul li div strong {
+  padding-top: 8px;
+}
+
+.profile-container ul li div p {
+  background: #e6e6e6;
+  padding: 8px;
+  border-radius: 20px;
+}

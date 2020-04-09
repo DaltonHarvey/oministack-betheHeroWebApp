@@ -1,0 +1,48 @@
+.logon-conteiner {
+  width: 100%;
+  max-width: 1120px;
+  height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logon-conteiner section.form {
+  width: 100%;
+  max-width: 350px;
+  margin-right: 40px;
+}
+
+.logon-conteiner section.form form {
+  margin-top: 100px;
+}
+
+.logon-conteiner section.form form h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 32px;
+  font-weight: 100;
+  margin-bottom: 4px; 
+}
+
+.logon-conteiner section.form form p {
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 32px
+}
+
+.logon-conteiner section.form form input {
+  margin-right: 15px;
+}
+
+.logon-conteiner section.form form a span {
+  margin-right: 8px;
+  background: #e1e1e1;
+  padding-top: 8px;
+  text-align: center;
+  box-shadow: 1px 1px 11px 1px #d2d2d2b3;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}

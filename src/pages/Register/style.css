@@ -1,0 +1,73 @@
+.register-conteiner {
+  width: 100%;
+  max-width: 1120px;
+  height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-conteiner .container {
+  width: 100%;
+  padding: 96px;
+  background: #fafafa;
+  box-shadow: 0 0 100px rgb(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.register-conteiner .container section {
+  width: 100%;
+  max-width: 380px;
+}
+
+.register-conteiner .container section h1{
+  font-family: 'Abril Fatface', cursive;
+  color: #4c4c4c;
+  font-size: 50px;
+  font-weight: 100;
+  margin: 64 0 32px;
+}
+
+.register-conteiner .container section p{
+  font-weight: 600;
+  color: #333333;
+  line-height: 20px;
+}
+
+.register-conteiner .container section img {
+  width: 200px ;
+}
+
+
+.register-conteiner .container section a{
+  margin-top: 100px;
+}
+
+.register-conteiner .container form {
+  width: 100%;
+  max-width: 450px;
+} 
+
+.register-conteiner .container form input {
+  margin-top: 8px;
+  border-radius: 2px;
+  background: rgba(225, 225, 225, 0.38)
+}
+
+.register-conteiner .container form button {
+  margin-top: 40px;
+}
+
+.input-group {
+  display: flex;
+}
+
+.register-conteiner .container form .input-group input + input {
+  margin-left: 8px;
+}

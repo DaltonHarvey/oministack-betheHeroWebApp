@@ -1,0 +1,74 @@
+.incidente-container {
+  width: 100%;
+  max-width: 1120px;
+  height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.incidente-container .container {
+  width: 100%;
+  padding: 96px;
+  background: #fafafa;
+  box-shadow: 0 0 100px rgb(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.incidente-container .container section {
+  width: 100%;
+  max-width: 380px;
+}
+
+.incidente-container .container section h1{
+  font-family: 'Abril Fatface', cursive;
+  color: #4c4c4c;
+  font-size: 50px;
+  font-weight: 100;
+  margin: 64 0 32px;
+}
+
+.incidente-container .container section p{
+  font-weight: 600;
+  color: #333333;
+  line-height: 20px;
+}
+
+.incidente-container .container section img {
+  width: 200px ;
+}
+
+
+.incidente-container .container section a{
+  margin-top: 100px;
+}
+
+.incidente-container .container form {
+  width: 100%;
+  max-width: 450px;
+} 
+
+.incidente-container .container form input,
+.incidente-container .container form textarea {
+  margin-top: 8px;
+  border-radius: 2px;
+  background: rgba(225, 225, 225, 0.38)
+}
+
+.incidente-container .container form button {
+  margin-top: 40px;
+}
+
+.input-group {
+  display: flex;
+}
+
+.incidente-container .container form .input-group input + input {
+  margin-left: 8px;
+}
