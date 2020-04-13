@@ -7,12 +7,20 @@ import "./style.css";
 
 export default class Register extends Component {
 
-  state = {
-    name: '',
-    email: '',
-    whatsApp: '',
-    uf: '',
-    city: ''
+
+
+  constructor(props){
+    super(props);
+    this.state = {
+      name: '',
+      email: '',
+      whatsApp: '',
+      uf: '',
+      city: ''
+    }
+
+    this.handleChange =  this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this)
   }
 
 
@@ -46,7 +54,6 @@ export default class Register extends Component {
   }
 
   render() {
-    // let { name, email, whatsApp, city, uf } = this.state;
     return (
       <div className="register-conteiner">
         <div className="container">

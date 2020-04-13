@@ -27,7 +27,7 @@ class Logon extends Component {
     try {
       const response = await api.post('session', { Id });
 
-      localStorage.setItem('ongId', Id );
+      localStorage.setItem('ongId', response.data.id );
       localStorage.setItem('ong', response.data.name );
 
       this.props.history.push('/profile');
@@ -56,7 +56,6 @@ class Logon extends Component {
             <span>
               <FiLogIn />
             </span>
-            
             Registe your Ong
           </Link>
         </form>
